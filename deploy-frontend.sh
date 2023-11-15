@@ -59,6 +59,7 @@ function setup_nginx() {
     \n***************************************************\n"
     echo ======= Installing nginx =======
     sudo apt-get install -y nginx
+    sudo apt-get install -y httpd
 
     # Configure nginx routing
     echo ======= Configuring nginx =======
